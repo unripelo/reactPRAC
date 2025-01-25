@@ -14,41 +14,42 @@ function App() {
               items-center
               justify-center text-white"
             >
-              Drawer 1
+              Ada Lovelace
             </div>
           </div>
           <div className="bg-white flex size-full flex-col md:flex-row items-center justify-center p-4 space-y-2 md:space-y-0 md:space-x-5 rounded-lg">
             <div
               className="bg-red-800 text-white size-full items-center
-              justify-center flex flex-1 hover:flex-[2]"
+              justify-center flex flex-1 hover:flex-[2] transition-flex duration-300 ease-in-out"
             >
-              Drawer 2
+              Alan Turing
             </div>
             <div
               className="bg-red-800 text-white size-full items-center
-              justify-center flex flex-1 hover:flex-[2] "
+              justify-center flex flex-1 hover:flex-[2] transition-flex duration-300 ease-in-out "
             >
-              Drawer 3
+              Guido Van Rossum
             </div>
           </div>
           <div className="bg-white flex size-full items-center justify-center p-4  space-y-2 md:space-y-0 md:space-x-4 rounded-lg flex-col md:flex-row">
             <div
               className="bg-red-800 text-white size-full items-center
-              justify-center flex flex-1 hover:flex-[2]"
+              justify-center flex flex-1 hover:flex-[2]
+              transition-flex duration-300 ease-in-out"
             >
-              Drawer 4
+              Grace Hopper
             </div>
             <div
               className="bg-red-800 text-white size-full items-center
-              justify-center flex flex-1 hover:flex-[2]"
+              justify-center flex flex-1 hover:flex-[2] transition-flex duration-300 ease-in-out"
             >
-              Drawer 5
+              JV Neumann
             </div>
             <div
               className="bg-red-800 text-white size-full items-center
-              justify-center flex flex-1 hover:flex-[2]"
+              justify-center flex flex-1 hover:flex-[2] transition-flex duration-300 ease-in-out"
             >
-              Drawer 6
+              Junar Landicho
             </div>
           </div>
         </div>
