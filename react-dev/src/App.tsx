@@ -1,8 +1,12 @@
 import "./App.css";
+import MainContainer from "./MainContainer";
 
 function App() {
   return (
     <>
+      <div>
+        <MainContainer />
+      </div>
       <div className="flex h-screen w-screen items-center justify-center align-middle">
         <div className="flex bg-red-800 items-center w-full justify-center font-bold text-2xl h-full md:h-2/3 md:max-w-screen-md  md:aspect-square rounded-3xl flex-col p-10 space-y-10">
           <div className="bg-white flex size-full items-center justify-center p-4 rounded-lg">
