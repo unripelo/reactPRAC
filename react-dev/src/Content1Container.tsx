@@ -5,6 +5,9 @@ const Content1Container = () => {
   return (
     <div className="flex h-screen w-screen items-center justify-center align-middle">
       <div className="w-2/3 h-5/6 border-4 border-black-400 bg-amber-100 rounded-xl flex-col p-10 space-y-10 flex items-center justify-center align-middle">
+        <div className="bg-white p-4 rounded-lg border-4 text-2xl absolute top-40 left-60">
+          Add Chapter Name
+        </div>
         <div
           className="bg-white border-4 rounded-lg
         flex size-90 items-center w-full text-xl overflow-y-scroll"
