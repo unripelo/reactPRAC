@@ -12,7 +12,7 @@ const Content1Container = () => {
           className="bg-white border-4 rounded-lg
         flex size-90 items-center w-full text-xl overflow-y-scroll"
         >
-          <p className="font-serif text-left px-8">{text}</p>
+          <p className="font-serif text-left px-8 text-2xl">{text}</p>
         </div>
         <div className="bg-white p-4 rounded-lg absolute bottom-16 left-65 text-2xl border-4 w-45 items-center justify-center flex size-15">
           Heart
