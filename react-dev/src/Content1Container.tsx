@@ -2,11 +2,12 @@ import React from "react";
 
 const Content1Container = () => {
   const text = "Add story here";
+  const text1 = "Chapter 1";
   return (
     <div className="flex h-screen w-screen items-center justify-center align-middle">
-      <div className="w-2/3 h-5/6 border-4 border-black-400 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-xl flex-col p-10 space-y-10 flex items-center justify-center align-middle">
-        <div className="bg-white p-4 rounded-lg border-4 text-2xl absolute top-40 left-60">
-          Add Chapter Name
+      <div className="w-2/3 h-5/6 border-4 border-black-400 bg-zinc-950 rounded-xl flex-col p-10 space-y-10 flex items-center justify-center align-middle">
+        <div className="bg-white p-4 rounded-lg border-4 text-2xl absolute top-40 left-60 font-serif">
+          {text1}
         </div>
         <div
           className="bg-white border-4 rounded-lg
