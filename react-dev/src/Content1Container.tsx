@@ -16,7 +16,7 @@ const Content1Container = () => {
           <p className="font-serif text-left px-8 text-2xl flex">{text}</p>
         </div>
         <div className="bg-white p-4 rounded-lg absolute bottom-16 left-65 text-2xl w-45 items-center justify-center flex size-15">
-          <div className="md:shrink-0 md:flex">
+          <div className="flex md:max-w-screen-md ">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -27,7 +27,7 @@ const Content1Container = () => {
             </svg>
           </div>
         </div>
-        <div className="bg-white p-4 rounded-4xl absolute bottom-27 right-60 text-2xl border-4 w-70 items-center justify-center flex size-15">
+        <div className="bg-white p-4 rounded-4xl absolute bottom-27 right-60 text-2xl border-4 w-70 items-center justify-center flex size-15  md:shrink md:h-15 md:max-w-screen-md">
           Comment
         </div>
       </div>
